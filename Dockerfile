@@ -1,5 +1,5 @@
 FROM python:3.10.11-slim
-ENV PORT 8501
+ENV PORT=8501
 WORKDIR /app
 # Create virtual environment
 RUN python3 -m venv /ve
